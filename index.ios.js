@@ -20,7 +20,7 @@ export default class assertsample extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.instructions}>
-          {zeroPadding(123, 8)}
+          {zeroPadding(-123, 8)}
         </Text>
       </View>
     );
